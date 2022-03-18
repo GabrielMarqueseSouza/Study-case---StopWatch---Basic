@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\StopWatch\\StopWatch\\StopWatch\\StopWatch.csproj": {}
+    "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\Studycases-StopWatch-Basic\\StopWatch\\StopWatch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\StopWatch\\StopWatch\\StopWatch\\StopWatch.csproj": {
+    "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\Studycases-StopWatch-Basic\\StopWatch\\StopWatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\StopWatch\\StopWatch\\StopWatch\\StopWatch.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\Studycases-StopWatch-Basic\\StopWatch\\StopWatch.csproj",
         "projectName": "StopWatch",
-        "projectPath": "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\StopWatch\\StopWatch\\StopWatch\\StopWatch.csproj",
+        "projectPath": "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\Studycases-StopWatch-Basic\\StopWatch\\StopWatch.csproj",
         "packagesPath": "C:\\Users\\Gabriel.CAIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\StopWatch\\StopWatch\\StopWatch\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel.CAIO\\Desktop\\Cases estudo Gabriel\\Studycases-StopWatch-Basic\\StopWatch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
