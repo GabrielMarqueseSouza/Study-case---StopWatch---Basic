@@ -23,7 +23,7 @@ namespace StopWatch
                 multiplier = 60;
 
             if (time == 0)
-                System.Environment.Exit(0);
+                Environment.Exit(0);
 
             Console.WriteLine("Starting count:");
             Start(time * multiplier);
@@ -34,14 +34,14 @@ namespace StopWatch
             Thread.Sleep(1000);
             int counter = 0;
 
-            while (counter != time)
+            do
             {
                 Console.Clear();
-
                 counter++;
                 Console.WriteLine(counter);
-                Thread.Sleep(1000);
-            };
+                Thread.Sleep(500);
+            }
+            while (counter != time);
 
             Console.Clear();
             Console.WriteLine("Count finished!");
