@@ -7,13 +7,19 @@ namespace StopWatch
     {
         public void StopWatchMenu()
         {
+            GeneralMenu menu = new();
+
             Console.Clear();
             Console.WriteLine("Welcome to stopwatch!");
             Console.WriteLine("S/s = Seconds");
             Console.WriteLine("M/m = Minutes");
             Console.WriteLine("0 = Exit stopwatch");
+            Console.WriteLine("X/x - Menu");
             Console.Write("Enter time and counting format (ex: 10s / 1m / 50s): ");
             string data = Console.ReadLine().ToLower();
+
+            if (data == "X" || data == "x")
+                menu.Menu();
 
             char type = char.Parse(data.Substring(data.Length - 1, 1));
             int time = int.Parse(data.Substring(0, data.Length - 1));
